@@ -5,17 +5,17 @@ Snake game crafted with C and Ncurses library.
 
 To compile and run:
 ```
-gcc snake.c -o snake -lncurses
+gcc snake.c -o snake -I"path-to-curses-library" -lncurses
 ./snake
 ```
 
 For error handling:
 ```
-gcc -Wall -g snake.c -o snake -lncurses
+gcc -Wall -g snake.c -o snake I"path-to-curses-library" -lncurses
 ./snake
 ```
 
-Works with Powershell version-7.3.6, gcc compiler, ensure Ncurses library is installed and reachable.
+Works with Powershell version-7.3.6, gcc compiler, ensure Curses library is installed and reachable.
 
 <img width="241" alt="snakec" src="https://github.com/MarcTy/Snake-in-C/assets/88467549/f2f18c9b-db11-42e5-9ac0-ac9a5068847c">
 
